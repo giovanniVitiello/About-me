@@ -19,8 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine|textPersonName"
-            android:ems="10"
             android:id="@+id/nickname_edit"
+            android:ems="10"
             style="@style/NameStyle"
             android:textAlignment="center"
             android:hint="@string/what_is_your_nickname"/>
@@ -37,12 +37,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/nickname_text"
-            tools:visibility="gone"
             android:textAlignment="center"
             style="@style/NameStyle"
             android:text=""
             android:background="@color/colorAccent"
-            android:paddingBottom="@dimen/small_padding"/>
+            android:paddingBottom="@dimen/small_padding"
+            android:visibility="gone"/>
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
